@@ -34,7 +34,7 @@ public class SMILE_Analysis_class {
         DataFrame df=null;
 
         try {
-            df= Read.csv("C:\\Users\\Dr Taher\\Downloads\\Wuzzuf_Jobs.csv",format);
+            df= Read.csv("Wuzzuf_Jobs.csv",format);
 
             System.out.println(df.structure());
 //            System.out.println(df);
